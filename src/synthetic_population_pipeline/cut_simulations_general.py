@@ -8,7 +8,7 @@ import geopandas as gpd
 import time
 
 '''
-1. This script processes city-specific simulation data by cutting the network for each city using the RunScenarioCutter.
+1. This script processes the city-specific simulation data by cutting the network for each city using the RunScenarioCutter.
 2. The script supports various city types — Landkreis, Stadt, and combined Landkreis & Stadt — having geometry class as multipolygon.
 3. It reads each city's boundary from a .gpkg file and performs a geometric union to extract the outermost boundary, which is then used to cut the simulation network accordingly.
 4. It processes cities sequentially and provides detailed logging for each step. It verifies the existence and validity of required output files.
