@@ -1,5 +1,5 @@
 """
-This module processes a GeoPackage file containing administrative boundaries of Germany.
+This module processes a geoPackage file containing administrative boundaries of Germany.
 We then extract city-related features for a list of Bavarian cities. It converts the
 extracted features of each selected city into GeoPackage and GeoJSON formats, prints feature information,
 and plots the boundaries of the selected cities distinguishing between 'Stadt' (city) and 'Landkreis' (county).
